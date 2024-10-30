@@ -8,6 +8,7 @@ public class Main {
         int num = input.nextInt();
         int temp;
         int num1 = 0;
+        //originally used for loop but after doing so i was told to also solve using while
         while (num%10 > 0) {
             temp = num % 10;
             num1 = num1*10 + temp;
